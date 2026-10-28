@@ -11,7 +11,7 @@
   ],
   "require": {
     "php": ">=8.3",
-    "oliverde8/php-etl": "dev-fix/yaml-version-repeat-spit-operations",
+    "oliverde8/php-etl": "^2.1",
     "symfony/framework-bundle": "^7.4|^8.0",
     "symfony/messenger": "^7.4|^8.0",
     "ext-json": "*"
@@ -29,11 +29,5 @@
     "symfony/monolog-bundle": "^3.7",
     "symfony/console": "^7.4|^8.0",
     "phpunit/phpunit": "^11.0"
-  },
-  "repositories": {
-    "php-etl": {
-      "type": "vcs",
-      "url": "https://github.com/dvasconcelos/php-etl"
-    }
   }
 }
